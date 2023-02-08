@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('html/head.html', {
+    'title': 'Главная'
+  })
+  <body>
+    
+    
+<div class="wrapper">
+      
+  <!-- Header -->
+@@include('html/header.html', {})
+      
+
+
+
+
+<main class="main">
+  
+<section class="breadcrumbs">
+<div class="container">
+  <ul class="breadcrumbs__list">
+    <li class="breadcrumbs__link">
+      <a href="#">Главная</a>
+    </li>
+    <li class="breadcrumbs__link">
+      <a href="#">Каталог товаров</a>
+    </li>
+    <li class="breadcrumbs__link">
+      <a href="#">Частное домостроение</a>
+    </li>
+    <li class="breadcrumbs__link">
+      <a href="#">Перекрытие плиты</a>
+    </li>
+    <li class="breadcrumbs__link">
+      <a href="#">Плиты ПК</a>
+    </li>
+    <li class="breadcrumbs__link">
+      <a href="#">Пк 63-12-8</a>
+    </li>
+  </ul>
+</div>
+</section>
+
+<section class="product">
+<div class="container">
+    <h1 class="product__title">ПК 63-12-8</h1>
+    <div class="product__rating rating">
+      <img class="rating__item" src="images/icons/Vector.png" alt="stars">
+      <img class="rating__item" src="images/icons/Vector.png" alt="stars">
+      <img class="rating__item" src="images/icons/Vector.png" alt="stars">
+      <img class="rating__item" src="images/icons/Vector-1.png" alt="stars">
+      <img class="rating__item" src="images/icons/Vector-2.png" alt="stars">
+    </div>
+</div>
+
+    <div class="product__tabs">
+      <div class="container">
+        <div class="product__tabs-inner">
+          <button class="product__tabs-btn product__tabs-btn--active">Все о товаре</button>
+          <button class="product__tabs-btn">Характеристики</button>
+          <button class="product__tabs-btn">Доставка</button>
+          <button class="product__tabs-btn">Отзывы</button>
+        </div>
+      </div>
+    </div>
+<div class="container">
+    <div class="product__content">
+      <div class="product__content-item product__content-item--active">
+        <div class="product__slider">
+          <div class="product__slider-wrapper swiper-wrapper">
+            <img class="product__slider-slide swiper-slide" src="images/content/slider-1.jpg" alt="">
+            <img class="product__slider-slide swiper-slide" src="images/content/slider-1.jpg" alt="">
+            <img class="product__slider-slide swiper-slide" src="images/content/slider-1.jpg" alt="">
+            <img class="product__slider-slide swiper-slide" src="images/content/slider-1.jpg" alt="">
+            <img class="product__slider-slide swiper-slide" src="images/content/slider-1.jpg" alt="">
+            <img class="product__slider-slide swiper-slide" src="images/content/slider-1.jpg" alt="">
+          </div>
+          <div class="product__slider-dots swiper-pagination"></div>
+        </div>
+        
+        <div class="product__characteristics">
+          <!-- Специально не даю класс, чтобы показать разные подходы -->
+          <h4>характеристики</h4>
+          <p><span>Наименование: </span>Плиты ПК</p>
+          <p><span>Завод-производитель: </span>Москва и Мо</p>
+          <p><span>Технические условия: </span>ГОСТ 9561-91</p>
+          <p><span>Длина, мм: </span>6300</p>
+          <p><span>Ширина, мм: </span>1200</p>
+          <p><span>Высота, мм: </span>220</p>
+          <p><span>Расчетная нагрузка, кг/м<sup>2</sup>: </span>800</p>
+          <p><span>Вес 1шт., т: </span>1,755</p>
+        </div>
+        
+        <div class="product__box">
+          <div class="product__price">484,00₽/шт</div>
+          <div class="product__oldprice">154,88₽/м<sup>2</sup></div>
+          <div class="product__articles"><span>Артикул:</span> 0543600</div>
+          <div class="product__btns">
+            <div class="product__btns-item product__btns-amount">
+              <button class="product__btns-minus">Минус</button>
+              <p><span class="product__btns-num">10</span>шт.</p>
+              <button class="product__btns-plus">Плюс</button>
+            </div>
+            <button class="product__btns-item product__btns-basket"><span class="basket__text">В корзину</span><span class="basket__text--active">В корзине</span></button>
+            <button class="product__btns-item product__btns-favorites">В избранное</button>
+            <a class="product__btns-item product__btns-phone" href="phone">Позвонить</a>
+          </div>
+          <div class="product__messengers">
+            <p>Также для вашего удобства мы доступны в мессенджерах</p>
+            <ul>
+              <li>
+                <a href="#"><img src="images/icons/WhatsApp.png" alt="WhatsApp"></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/icons/Viber.png" alt="Viber"></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/icons/Telegram.png" alt="Telegram"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+      
+      
+      <div class="product__content-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure esse earum fugiat tenetur explicabo nihil voluptatum ut deleniti alias delectus! Vitae labore nostrum cumque perspiciatis voluptate harum neque magni repudiandae!</div>
+      <div class="product__content-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis perspiciatis necessitatibus, delectus eos a optio laboriosam temporibus corrupti obcaecati dolorem debitis corporis laborum, odio esse ipsam voluptatem iste qui magni.</div>
+      <div class="product__content-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, distinctio. Ullam enim, tempora et placeat velit optio ea atque delectus libero odio eaque deleniti neque necessitatibus quo ducimus dolores unde.</div>
+    </div>
+</div>
+</section>
+    
+
+
+
+
+
+
+
+  
+</main>
+      
+      
+      
+      <!-- Footer -->
+      <!-- @@include('html/footer.html', {}) -->
+    </div>
+    
+    
+    <!-- JS -->
+    @@include('html/script.html', {})
+  </body>
+</html> 
